@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4c384e255dc761753338e2beab726204 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.3.0/leaflet-dvf.markers.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4c384e255dc761753338e2beab726204" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4c384e255dc761753338e2beab726204 = L.map(
+                "map_4c384e255dc761753338e2beab726204",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a67fe083a6ac6b046f6d3f859896c2f2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4c384e255dc761753338e2beab726204);
+        
+    
+            var marker_1b334feeecb716ed2801650675b5d7ba = L.marker(
+                [22.308901, 113.915001],
+                {}
+            ).addTo(map_4c384e255dc761753338e2beab726204);
+        
+    
+            var icon_92e4d974392bd1059183886ddcee6ad3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "red", "opacity": 0.5, "prefix": "fa", "weight": 0.5}
+            );
+            marker_1b334feeecb716ed2801650675b5d7ba.setIcon(icon_92e4d974392bd1059183886ddcee6ad3);
+        
+    
+        var popup_89567f7233e1ad8ecd6fa2a9b6407bb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_099f8bcd5b907b4577f52f43e644dc36 = $(`<div id="html_099f8bcd5b907b4577f52f43e644dc36" style="width: 100.0%; height: 100.0%;">Hong Kong International Airport</div>`)[0];
+                popup_89567f7233e1ad8ecd6fa2a9b6407bb8.setContent(html_099f8bcd5b907b4577f52f43e644dc36);
+            
+        
+
+        marker_1b334feeecb716ed2801650675b5d7ba.bindPopup(popup_89567f7233e1ad8ecd6fa2a9b6407bb8)
+        ;
+
+        
+    
+    
+            var marker_c4680900be629c77b92207c08b523ab3 = L.marker(
+                [33.94250107, -118.4079971],
+                {}
+            ).addTo(map_4c384e255dc761753338e2beab726204);
+        
+    
+            var icon_9e35e2fea6e6a55ac1041f5ead3a24e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "opacity": 0.5, "prefix": "fa", "weight": 0.5}
+            );
+            marker_c4680900be629c77b92207c08b523ab3.setIcon(icon_9e35e2fea6e6a55ac1041f5ead3a24e5);
+        
+    
+        var popup_6c6fbdd7cde43845fe74dff36a561ecf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c6efd35d8a3bc5e21dbc488f69f492b = $(`<div id="html_2c6efd35d8a3bc5e21dbc488f69f492b" style="width: 100.0%; height: 100.0%;">Los Angeles International Airport</div>`)[0];
+                popup_6c6fbdd7cde43845fe74dff36a561ecf.setContent(html_2c6efd35d8a3bc5e21dbc488f69f492b);
+            
+        
+
+        marker_c4680900be629c77b92207c08b523ab3.bindPopup(popup_6c6fbdd7cde43845fe74dff36a561ecf)
+        ;
+
+        
+    
+    
+            var marker_9eaa92fed0984ac096bdad9bb094875d = L.marker(
+                [-12.0219, -77.114305],
+                {}
+            ).addTo(map_4c384e255dc761753338e2beab726204);
+        
+    
+            var icon_7efe77e21f8163308c5d23eb49760fd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "green", "opacity": 0.5, "prefix": "fa", "weight": 0.5}
+            );
+            marker_9eaa92fed0984ac096bdad9bb094875d.setIcon(icon_7efe77e21f8163308c5d23eb49760fd4);
+        
+    
+        var popup_82f07c20def0a31c5fabd9c0c2e11e39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d263c28b4bac933b47ffd65bd8d8ebe = $(`<div id="html_0d263c28b4bac933b47ffd65bd8d8ebe" style="width: 100.0%; height: 100.0%;">Jorge Chávez International Airport</div>`)[0];
+                popup_82f07c20def0a31c5fabd9c0c2e11e39.setContent(html_0d263c28b4bac933b47ffd65bd8d8ebe);
+            
+        
+
+        marker_9eaa92fed0984ac096bdad9bb094875d.bindPopup(popup_82f07c20def0a31c5fabd9c0c2e11e39)
+        ;
+
+        
+    
+    
+            var poly_line_22c55faaa9a2580d1c29fb2267231ddb = L.polyline(
+                [[33.94250107, -118.4079971], [22.308901, 113.915001]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4c384e255dc761753338e2beab726204);
+        
+    
+        var popup_cb0f063672c0e2514b3f9c9b2f77abeb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76c6efdb00dd2cc239d3a56db8ae0cc2 = $(`<div id="html_76c6efdb00dd2cc239d3a56db8ae0cc2" style="width: 100.0%; height: 100.0%;">Distance = 11663.91 km</div>`)[0];
+                popup_cb0f063672c0e2514b3f9c9b2f77abeb.setContent(html_76c6efdb00dd2cc239d3a56db8ae0cc2);
+            
+        
+
+        poly_line_22c55faaa9a2580d1c29fb2267231ddb.bindPopup(popup_cb0f063672c0e2514b3f9c9b2f77abeb)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_a2ca60eab1282e3419133734be856187 = new L.RegularPolygonMarker(
+                [22.308901, 113.915001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 3, "opacity": 1.0, "radius": 5, "rotation": -4.502998780719091, "stroke": true, "weight": 3}
+            ).addTo(map_4c384e255dc761753338e2beab726204);
+        
+    
+            var poly_line_b12b9627d14689a4e3f1762856218592 = L.polyline(
+                [[-12.0219, -77.114305], [33.94250107, -118.4079971]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4c384e255dc761753338e2beab726204);
+        
+    
+        var popup_bb1c1f6f99492ebe0a4d83d365486a97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8309b8b1c928861fcad087c19a8837a4 = $(`<div id="html_8309b8b1c928861fcad087c19a8837a4" style="width: 100.0%; height: 100.0%;">Distance = 6720.27 km</div>`)[0];
+                popup_bb1c1f6f99492ebe0a4d83d365486a97.setContent(html_8309b8b1c928861fcad087c19a8837a4);
+            
+        
+
+        poly_line_b12b9627d14689a4e3f1762856218592.bindPopup(popup_bb1c1f6f99492ebe0a4d83d365486a97)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_42728934d5e3b1dcf184b5781193f10f = new L.RegularPolygonMarker(
+                [33.94250107, -118.4079971],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 3, "opacity": 1.0, "radius": 5, "rotation": -75.49871802767198, "stroke": true, "weight": 3}
+            ).addTo(map_4c384e255dc761753338e2beab726204);
+        
+    
+            var marker_268deefdb868bbe677cb9c8fc6533f52 = L.marker(
+                [40.63980103, -73.77890015],
+                {}
+            ).addTo(map_4c384e255dc761753338e2beab726204);
+        
+    
+            var icon_97c823262a56f3f1a606da7f331bbaec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "opacity": 0.5, "prefix": "fa", "weight": 0.5}
+            );
+            marker_268deefdb868bbe677cb9c8fc6533f52.setIcon(icon_97c823262a56f3f1a606da7f331bbaec);
+        
+    
+        var popup_98f27db25c28277faecc8f84e026ef58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_263988dded55b43e833b80c0d3bd9972 = $(`<div id="html_263988dded55b43e833b80c0d3bd9972" style="width: 100.0%; height: 100.0%;">John F Kennedy International Airport</div>`)[0];
+                popup_98f27db25c28277faecc8f84e026ef58.setContent(html_263988dded55b43e833b80c0d3bd9972);
+            
+        
+
+        marker_268deefdb868bbe677cb9c8fc6533f52.bindPopup(popup_98f27db25c28277faecc8f84e026ef58)
+        ;
+
+        
+    
+    
+            var poly_line_2efe093384e0f78687324e894ffb5f57 = L.polyline(
+                [[40.63980103, -73.77890015], [22.308901, 113.915001]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4c384e255dc761753338e2beab726204);
+        
+    
+        var popup_0120c716f1bdf956261351c648ff07fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae1aebe2614162303082bcdbfe856166 = $(`<div id="html_ae1aebe2614162303082bcdbfe856166" style="width: 100.0%; height: 100.0%;">Distance = 12969.76 km</div>`)[0];
+                popup_0120c716f1bdf956261351c648ff07fd.setContent(html_ae1aebe2614162303082bcdbfe856166);
+            
+        
+
+        poly_line_2efe093384e0f78687324e894ffb5f57.bindPopup(popup_0120c716f1bdf956261351c648ff07fd)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_cb5d3ec949717be687bc4a7404e0d2c2 = new L.RegularPolygonMarker(
+                [22.308901, 113.915001],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 3, "opacity": 1.0, "radius": 5, "rotation": -8.76195488760888, "stroke": true, "weight": 3}
+            ).addTo(map_4c384e255dc761753338e2beab726204);
+        
+    
+            var poly_line_d46ca83d39325ab5de47e11949ca05e9 = L.polyline(
+                [[-12.0219, -77.114305], [40.63980103, -73.77890015]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4c384e255dc761753338e2beab726204);
+        
+    
+        var popup_181d77384fd367e3e14e7708085b9ad9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69a668d7bd746f1b4da17b6dac3f7655 = $(`<div id="html_69a668d7bd746f1b4da17b6dac3f7655" style="width: 100.0%; height: 100.0%;">Distance = 5865.5 km</div>`)[0];
+                popup_181d77384fd367e3e14e7708085b9ad9.setContent(html_69a668d7bd746f1b4da17b6dac3f7655);
+            
+        
+
+        poly_line_d46ca83d39325ab5de47e11949ca05e9.bindPopup(popup_181d77384fd367e3e14e7708085b9ad9)
+        ;
+
+        
+    
+    
+            var regular_polygon_marker_39e057eb1259b3c331840d4ec10f668c = new L.RegularPolygonMarker(
+                [40.63980103, -73.77890015],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "numberOfSides": 3, "opacity": 1.0, "radius": 5, "rotation": 135.67899344013838, "stroke": true, "weight": 3}
+            ).addTo(map_4c384e255dc761753338e2beab726204);
+        
+</script>
+</html>
